@@ -192,17 +192,57 @@
       z-index: 2;
       animation: float 6s ease-in-out infinite;
     }
-    
+
     @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
     }
 
-    .badge-top { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 2rem; color: var(--terracotta); line-height: 1; }
-    .badge-top-sub { font-size: 0.6rem; letter-spacing: 1px; color: var(--mid); text-transform: uppercase; margin-bottom: 0.5rem; }
-    .badge-divider { width: 30px; height: 1px; background: var(--border); margin: 0.5rem 0; }
-    .badge-bottom { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.5rem; color: var(--terracotta); line-height: 1; margin-top: 0.2rem; }
-    .badge-bottom-sub { font-size: 0.6rem; letter-spacing: 1px; color: var(--mid); text-transform: uppercase; }
+    .badge-top {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      color: var(--terracotta);
+      line-height: 1;
+    }
+
+    .badge-top-sub {
+      font-size: 0.6rem;
+      letter-spacing: 1px;
+      color: var(--mid);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .badge-divider {
+      width: 30px;
+      height: 1px;
+      background: var(--border);
+      margin: 0.5rem 0;
+    }
+
+    .badge-bottom {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: var(--terracotta);
+      line-height: 1;
+      margin-top: 0.2rem;
+    }
+
+    .badge-bottom-sub {
+      font-size: 0.6rem;
+      letter-spacing: 1px;
+      color: var(--mid);
+      text-transform: uppercase;
+    }
 
     /* Marquee */
     .marquee-section {
@@ -214,14 +254,14 @@
       border-top: 1px solid rgba(255, 255, 255, 0.05);
       border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
-    
+
     .marquee-content {
       display: flex;
       gap: 3rem;
       white-space: nowrap;
       animation: marquee 30s linear infinite;
     }
-    
+
     .marquee-item {
       color: var(--light-text);
       font-size: 0.85rem;
@@ -232,7 +272,7 @@
       align-items: center;
       gap: 3rem;
     }
-    
+
     .marquee-dot {
       width: 6px;
       height: 6px;
@@ -241,8 +281,13 @@
     }
 
     @keyframes marquee {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
     }
 
     .status-badge {
@@ -580,8 +625,10 @@
       font-size: 0.85rem;
       color: var(--light-text);
     }
-    
-    .footer-bottom .heart { color: var(--terracotta); }
+
+    .footer-bottom .heart {
+      color: var(--terracotta);
+    }
 
     @media (max-width: 768px) {
       nav {
@@ -635,7 +682,8 @@
       </div>
       <h1 class="hero-name">Mian<br>Muhammad<br>Faseeh</h1>
       <p class="hero-subtitle">Graphic Designer & Aspiring Developer building digital experiences at the intersection of
-        <strong>AI and Design</strong>.</p>
+        <strong>AI and Design</strong>.
+      </p>
       <div style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
         <a href="#projects" class="btn-primary" style="margin-top: 0;">Explore Work</a>
         <a href="#" class="btn-secondary" style="margin-top: 0; margin-left: 0;">Download CV</a>
@@ -647,9 +695,21 @@
   <section class="marquee-section">
     <div class="marquee-content">
       <!-- We duplicate items for smooth infinite scroll -->
-      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span> AI & ML</div>
-      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span> AI & ML</div>
-      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span> AI & ML</div>
+      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span
+          class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span
+          class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span
+          class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span>
+        AI & ML</div>
+      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span
+          class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span
+          class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span
+          class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span>
+        AI & ML</div>
+      <div class="marquee-item">FLUTTER DEV <span class="marquee-dot"></span> PYTHON SCRIPTING <span
+          class="marquee-dot"></span> UI/UX <span class="marquee-dot"></span> LANDING PAGES <span
+          class="marquee-dot"></span> MYSQL <span class="marquee-dot"></span> SOCIAL MEDIA <span
+          class="marquee-dot"></span> CANVA <span class="marquee-dot"></span> FRAMER <span class="marquee-dot"></span>
+        AI & ML</div>
     </div>
   </section>
 
@@ -758,7 +818,8 @@
       <div class="footer-left reveal">
         <div class="section-label" style="justify-content: flex-start; margin-bottom: 2rem;">Contact</div>
         <h2>Let's Work<br>Together</h2>
-        <p>Whether you need a stunning design, a mobile app, or an automation script — I'm open to freelance projects, collaborations, and full-time opportunities. Let's build something great.</p>
+        <p>Whether you need a stunning design, a mobile app, or an automation script — I'm open to freelance projects,
+          collaborations, and full-time opportunities. Let's build something great.</p>
       </div>
       <div class="footer-links reveal">
         <a href="mailto:Faseehuet@gmail.com" class="footer-card">
@@ -793,7 +854,7 @@
         </a>
       </div>
     </div>
-    
+
     <div class="footer-bottom">
       <div>© 2026 Mian Muhammad Faseeh. Made with <span class="heart">♥</span></div>
       <div>Graphic Designer & Aspiring Developer</div>
