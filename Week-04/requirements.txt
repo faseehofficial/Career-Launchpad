@@ -1,0 +1,11 @@
+transformers
+torch
+fastapi
+uvicorn
+pandas
+scikit-learn
+wordcloud
+matplotlib
+nltk
+tqdm
+python-multipart

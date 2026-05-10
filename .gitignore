@@ -1,0 +1,19 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data Science / Caches
+.ipynb_checkpoints
+.pytest_cache/
+
+# Large Files (already tracked by LFS, but good to keep out of standard commits)
+*.pth
+*.zip
+*.7z
